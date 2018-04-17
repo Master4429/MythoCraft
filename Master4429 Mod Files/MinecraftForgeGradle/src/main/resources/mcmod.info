@@ -1,24 +1,24 @@
 [
 {
-  "modid": "classcraft",
+  "modid": "mythocraft",
 
-    "name": "ClassCraft",
+    "name": "MythoCraft",
 
-    "description": "The Initial Build of ClassCraft (Name Pending)",
+    "description": "The Initial Build of MythoCraft",
 
     "version": "0.0.1Alpha",
 
     "mcversion": "1.12.2",
 
-    "url": "",
+    "url": "github.com/Master4429/MythoCraft",
 
     "updateUrl": "",
 
-    "authorList": ["Riys Hassam (Master4429)"],
+    "authorList": ["EnderMelon01, Mr.PoopyButtHole (mrpooopybutthol3), Riys Hassam (Master4429), Parakalix"],
 
     "credits": "The Authors and all those who helped on GitHub",
 
-    "logoFile": "",
+    "logoFile": "mythocraft.png",
 
     "screenshots": [],
 
