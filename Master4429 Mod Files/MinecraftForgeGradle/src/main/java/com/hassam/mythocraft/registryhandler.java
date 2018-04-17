@@ -21,10 +21,7 @@ public class RegistryHandler
 	{
 		for(Item item : ModItems.ITEMS)
 			{
-				if(item instanceofIHasModel)
-					{
-						((IHasModel)item).registerModels();
-					}
+				((IHasModel)item).registerModels();
 			}
 	}
 }
