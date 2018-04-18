@@ -27,20 +27,20 @@ public class Main
 	public static CommonProxy proxy;
     
 	public static CreativeTabs MythoCraft = new MythoCraftTab("MythoCraft");
-	public static CreativeTabs MythoCraftItems = new MythoCraftItemsTab("MythoCraft Materials")
+	public static CreativeTabs MythoCraftItems = new MythoCraftItemsTab("MythoCraft Materials");
 }   
 
-	@EventHandler()
+	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
 
 	}
 			
-	@EventHandler()
+	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 
 	}
 			
-	@EventHandler()
+	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {
 	
 	}
