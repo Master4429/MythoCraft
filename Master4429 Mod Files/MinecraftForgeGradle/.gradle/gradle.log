@@ -15,151 +15,17 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\clientproxy.java:8: error: class ClientProxy is public, should be declared in a file named ClientProxy.java
-public class ClientProxy extends CommonProxy
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\commonproxy.java:5: error: class CommonProxy is public, should be declared in a file named CommonProxy.java
-public class CommonProxy
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:9: error: class ItemBase is public, should be declared in a file named ItemBase.java
-public class ItemBase extends Item implements
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:23: error: class Main is public, should be declared in a file named Main.java
-public class Main
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:8: error: class ModItems is public, should be declared in a file named ModItems.java
-public class ModItems
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:12: error: class RegistryHandler is public, should be declared in a file named RegistryHandler.java
-public class RegistryHandler
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:4: error: cannot find symbol
-import com.hassam.mythocraft.ModItems;
-                            ^
-  symbol:   class ModItems
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:5: error: cannot find symbol
-import com.hassam.mythocraft.util.IHasModel;
-                                 ^
-  symbol:   class IHasModel
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:10: error: cannot find symbol
-IHasModel {
-^
-  symbol: class IHasModel
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:4: error: cannot find symbol
-import com.hassam.mythocraft.util.Reference;
-                                 ^
-  symbol:   class Reference
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:5: error: package com.hassam.mythocraftitems does not exist
-import com.hassam.mythocraftitems.ItemBase;
-                                 ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.util.IHasModel;
-                                 ^
-  symbol:   class IHasModel
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:15: error: cannot find symbol
-	public void onItemRegister(RegistryEvent.Register<item>event)
-	                                                  ^
-  symbol:   class item
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:21: error: cannot find symbol
-@Mod(modid = Referance.MOD_ID, name = Referance.NAME, version = Referance.VERSION)
-             ^
-  symbol: variable Referance
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:21: error: cannot find symbol
-@Mod(modid = Referance.MOD_ID, name = Referance.NAME, version = Referance.VERSION)
-                                      ^
-  symbol: variable Referance
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:21: error: cannot find symbol
-@Mod(modid = Referance.MOD_ID, name = Referance.NAME, version = Referance.VERSION)
-                                                                ^
-  symbol: variable Referance
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:27: error: cannot find symbol
-    @Instance
-     ^
-  symbol:   class Instance
-  location: class Main
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:30: error: cannot find symbol
-    @SidedProxy(clientSide = Referance.CLIENT_PROXY_CLASS, serverSide = Referance.COMMON_PROXY_CLASS)
-                             ^
-  symbol:   variable Referance
-  location: class Main
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\main.java:30: error: cannot find symbol
-    @SidedProxy(clientSide = Referance.CLIENT_PROXY_CLASS, serverSide = Referance.COMMON_PROXY_CLASS)
-                                                                        ^
-  symbol:   variable Referance
-  location: class Main
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:13: error: cannot find symbol
-			setUnlocalizedName(name);
-			                   ^
-  symbol:   variable name
-  location: class ItemBase
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:14: error: cannot find symbol
-			setRegistryName(name);
-			                ^
-  symbol:   variable name
-  location: class ItemBase
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:17: error: package ModItems does not exist
-			ModItems.ITEMS.add(this);
-			        ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\itembase.java:19: error: method does not override or implement a method from a supertype
-	@Override
-	^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:10: error: cannot find symbol
-	public static final Item STYGIAN_IRON_INGOT = new ItemBase("stygian iron ingot");
-	                                                  ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:11: error: cannot find symbol
-	public static final Item CELESTIAL_BRONZE_INGOT = new ItemBase("celestial bronze ingot");
-	                                                      ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:12: error: cannot find symbol
-	public static final Item IMPERIAL_GOLD_INGOT = new ItemBase("imperial gold ingot");
-	                                                   ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:13: error: cannot find symbol
-	public static final Item BONE_STEEL_INGOT = new ItemBase("bone steel ingot");
-	                                                ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:14: error: cannot find symbol
-	public static final Item SILVER_INGOT = new ItemBase("silver iron ingot");
-	                                            ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:15: error: cannot find symbol
-	public static final Item METEORIC_IRON_INGOT = new ItemBase("meteoroic iron ingot");
-	                                                   ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\moditems.java:16: error: cannot find symbol
-	public static final Item adamant = new ItemBase("adamant");
-	                                       ^
-  symbol:   class ItemBase
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:17: error: cannot find symbol
-			event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
-			                                        ^
-  symbol:   variable ITEMS
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:22: error: cannot find symbol
-		for(Item item : ModItems.ITEMS)
-		                        ^
-  symbol:   variable ITEMS
-  location: class ModItems
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\registryhandler.java:24: error: cannot find symbol
-				((IHasModel)item).registerModels();
-				  ^
-  symbol:   class IHasModel
-  location: class RegistryHandler
-33 errors
+:sourceMainJava UP-TO-DATE
+:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:33: error: class, interface, or enum expected
+	public static void preInit(FMLPreInitializationEvent event)
+	              ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:39: error: class, interface, or enum expected
+	public static void init(FMLInitializationEvent event) {
+	              ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:44: error: class, interface, or enum expected
+	public static void postInit(FMLPostInitializationEvent event) {
+	              ^
+3 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -173,4 +39,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 14.368 secs
+Total time: 8.121 secs
