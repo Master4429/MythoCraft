@@ -30,32 +30,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
-
-
-
-
-
-
-
-import com.hassam.mythocraft.util.Reference;
-
-
-
-import net.minecraft.util.ResourceLocation;
-
-
-
-import net.minecraft.util.SoundEvent;
-
-
-
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
-
-
-
-
-
+public class SoundsHandler {
 
 
 public class SoundsHandler 

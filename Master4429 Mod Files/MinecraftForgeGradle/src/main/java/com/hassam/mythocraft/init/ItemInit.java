@@ -1,6 +1,6 @@
 package com.hassam.mythocraft.init;
 
-import javs.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 /* These will come later when their made.
 import com.hassam.mythocraft.objects.ArmourBase;
