@@ -16,130 +16,82 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
 :sourceMainJava
-:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:7: error: class MythoCraftTab is public, should be declared in a file named MythoCraftTab.java
-public class MythoCraftTab extends CreativeTabs
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:4: error: package com.hassam.mythocraft.handlers does not exist
-import com.hassam.mythocraft.handlers.LootTableHandler;
-                                     ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:5: error: cannot find symbol
-import com.hassam.mythocraft.SoundsHandler;
+:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:33: error: illegal start of type
+public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
                             ^
-  symbol:   class SoundsHandler
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\ItemInit.java:3: error: package javs.util does not exist
-import javs.util.ArrayList;
-                ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:9: error: cannot find symbol
-import net.minecraftforge.fml.common.Instance;
-                                    ^
-  symbol:   class Instance
-  location: package net.minecraftforge.fml.common
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:3: error: package com.hassam.init does not exist
-import com.hassam.init.ItemInit;
-                      ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:6: error: package net.minecraft.creativetav does not exist
-import net.minecraft.creativetav.CreativeTabs;
-                                ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\GuiHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.Reference;
-                            ^
-  symbol:   class Reference
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:3: error: cannot find symbol
-import com.hassam.mythocraft.init.ModItems;
-                                 ^
-  symbol:   class ModItems
-  location: package com.hassam.mythocraft.init
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.util.IHasModel;
-                                 ^
-  symbol:   class IHasModel
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RenderHandler.java:7: error: package com.hassam.mythocraft.render does not exist
-import com.hassam.mythocraft.render.RenderCentaur;
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:33: error: ';' expected
+public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
                                    ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\TileEntityHandler.java:5: error: package com.hassam.mythocraft.objects.blocks.machines.sinterer does not exist
-import com.hassam.mythocraft.objects.blocks.machines.sinterer.TileEntitySinteringFurnace;
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:33: error: illegal start of type
+public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
+                                       ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:33: error: ';' expected
+public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
+                                              ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:33: error: <identifier> expected
+public class SoundsHandler {package com.hassam.mythocraft.mod.util.handlers;
+                                                                           ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:41: error: illegal start of type
+import com.hassam.mythocraft.util.Reference;
+^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:41: error: ';' expected
+import com.hassam.mythocraft.util.Reference;
+      ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:41: error: illegal start of type
+import com.hassam.mythocraft.util.Reference;
+          ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:41: error: ';' expected
+import com.hassam.mythocraft.util.Reference;
+                 ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:41: error: <identifier> expected
+import com.hassam.mythocraft.util.Reference;
+                                           ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:45: error: illegal start of type
+import net.minecraft.util.ResourceLocation;
+^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:45: error: ';' expected
+import net.minecraft.util.ResourceLocation;
+      ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:45: error: illegal start of type
+import net.minecraft.util.ResourceLocation;
+          ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:45: error: ';' expected
+import net.minecraft.util.ResourceLocation;
+                    ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:45: error: <identifier> expected
+import net.minecraft.util.ResourceLocation;
+                                          ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:49: error: illegal start of type
+import net.minecraft.util.SoundEvent;
+^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:49: error: ';' expected
+import net.minecraft.util.SoundEvent;
+      ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:49: error: illegal start of type
+import net.minecraft.util.SoundEvent;
+          ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:49: error: ';' expected
+import net.minecraft.util.SoundEvent;
+                    ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:49: error: <identifier> expected
+import net.minecraft.util.SoundEvent;
+                                    ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:53: error: illegal start of type
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:53: error: ';' expected
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+      ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:53: error: illegal start of type
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+          ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:53: error: ';' expected
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+                         ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:53: error: <identifier> expected
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
                                                              ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:23: error: cannot find symbol
-	@Instance
-	 ^
-  symbol:   class Instance
-  location: class Main
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:26: error: cannot find symbol
- 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
- 	                                  ^
-  symbol:   variable CLIENT
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:26: error: cannot find symbol
- 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
- 	                                                                 ^
-  symbol:   variable COMMON
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:68: error: cannot find symbol
-		return LootTableHandler.CENTAUR;
-		       ^
-  symbol:   variable LootTableHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:74: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_AMBIENT;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:80: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_HURT;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:86: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_DEATH;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\render\RenderCentaur.java:23: error: cannot find symbol
-	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MODID + ":textures/entity/centaur.png");
-	                                                                              ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\EntityInit.java:37: error: cannot find symbol
-		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
-		                                                               ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\ItemInit.java:20: error: cannot find symbol
-	public static final List<Item> ITEMS = new ArrayList<Item>();
-	                                           ^
-  symbol:   class ArrayList
-  location: class ItemInit
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:30: error: cannot find symbol
-	public static CreativeTabs MythoCraftItems = new MythoCraftItemsTab("MythoCraft Materials");
-	                                                 ^
-  symbol:   class MythoCraftItemsTab
-  location: class Main
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:10: error: cannot find symbol
-	public ItemStack getTabIconItem() {return new ItemStack(ItemInit.IMPERIAL_GOLD_INGOT);}
-	                                                        ^
-  symbol:   variable ItemInit
-  location: class MythoCraftTab
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\proxy\ClientProxy.java:20: error: cannot find symbol
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(Reference.MODID, filename), id));
-		                                                                                                               ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:15: error: cannot find symbol
-			event.getRegistry().registerAll(Item.ITEMS.toArray(new Item[0]));
-			                                    ^
-  symbol:   variable ITEMS
-  location: class Item
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:18: error: missing method body, or declare abstract
-	public void onModelRegister(ModelRegistryEvent event);
-	            ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RenderHandler.java:37: error: cannot find symbol
-				return new RenderCentaur(manager);
-				           ^
-  symbol: class RenderCentaur
-28 errors
+25 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -153,4 +105,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.904 secs
+Total time: 10.399 secs

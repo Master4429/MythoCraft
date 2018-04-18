@@ -16,32 +16,19 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+public class ImmersiveMusic {
 
-public class Main
-{
-	
-	@Instance
-	public static Main instance;
-
- 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-	public static CommonProxy proxy;
+    @Instance
+    public static ImmersiveMusic instance;
     
-	public static CreativeTabs MythoCraft = new MythoCraftTab("MythoCraft");
-	public static CreativeTabs MythoCraftItems = new MythoCraftItemsTab("MythoCraft Materials");
-  
-
-	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {
-
-	}
-			
-	@EventHandler
-	public static void init(FMLInitializationEvent event) {
-
-	}
-			
-	@EventHandler
-	public static void postInit(FMLPostInitializationEvent event) {
-	
-	}
+    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
+    public static CommonProxy proxy;
+        
+    @EventHandler
+    public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
+    @EventHandler
+    public static void init(FMLInitializationEvent event) {RegistryHandler.initRegistries();}
+    @EventHandler
+    public static void postInit(FMLPostInitializationEvent event) {RegistryHandler.postInitRegistries();}
+    
 }
