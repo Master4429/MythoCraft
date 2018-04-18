@@ -16,10 +16,12 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class ImmersiveMusic {
+public class Main {
+
+	public static final MythoCraftMaterialsTab creativeTab = new MythoCraftMaterials();
 
     @Instance
-    public static ImmersiveMusic instance;
+    public static Main instance;
     
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
     public static CommonProxy proxy;

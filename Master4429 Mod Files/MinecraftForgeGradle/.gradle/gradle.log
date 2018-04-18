@@ -16,246 +16,28 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
 :sourceMainJava
-:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:19: error: class ImmersiveMusic is public, should be declared in a file named ImmersiveMusic.java
-public class ImmersiveMusic {
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:7: error: class MythoCraftTab is public, should be declared in a file named MythoCraftTab.java
-public class MythoCraftTab extends CreativeTabs
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:5: error: cannot find symbol
-import com.hassam.mythocraft.util.Reference;
-                                 ^
-  symbol:   class Reference
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:32: error: cannot find symbol
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
- ^
-  symbol: class Mod
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:36: error: class SoundsHandler is already defined in package com.hassam.mythocraft.mod.util.handlers
-public class SoundsHandler 
-       ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:4: error: package com.hassam.mythocraft.handlers does not exist
-import com.hassam.mythocraft.handlers.LootTableHandler;
-                                     ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:5: error: cannot find symbol
-import com.hassam.mythocraft.SoundsHandler;
-                            ^
-  symbol:   class SoundsHandler
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\EntityInit.java:5: error: cannot find symbol
-import com.hassam.mythocraft.Main;
-                            ^
-  symbol:   class Main
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\ItemInit.java:3: error: package javs.util does not exist
-import javs.util.ArrayList;
-                ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:9: error: cannot find symbol
-import net.minecraftforge.fml.common.Instance;
-                                    ^
-  symbol:   class Instance
-  location: package net.minecraftforge.fml.common
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:3: error: package com.hassam.init does not exist
-import com.hassam.init.ItemInit;
-                      ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:3: error: cannot find symbol
-import com.hassam.mythocraft.Main;
-                            ^
-  symbol:   class Main
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:6: error: package net.minecraft.creativetav does not exist
-import net.minecraft.creativetav.CreativeTabs;
-                                ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\GuiHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.Reference;
-                            ^
-  symbol:   class Reference
-  location: package com.hassam.mythocraft
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:3: error: cannot find symbol
-import com.hassam.mythocraft.init.ItemsInit;
-                                 ^
-  symbol:   class ItemsInit
-  location: package com.hassam.mythocraft.init
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.util.IHasModel;
-                                 ^
-  symbol:   class IHasModel
-  location: package com.hassam.mythocraft.util
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:21: error: cannot find symbol
-    public static void onBlockRegister(RegistryEvent.Register<Block> event)
-                                                              ^
-  symbol:   class Block
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RenderHandler.java:7: error: package com.hassam.mythocraft.render does not exist
-import com.hassam.mythocraft.render.RenderCentaur;
-                                   ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\TileEntityHandler.java:5: error: package com.hassam.mythocraft.objects.blocks.machines.sinterer does not exist
-import com.hassam.mythocraft.objects.blocks.machines.sinterer.TileEntitySinteringFurnace;
-                                                             ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:21: error: cannot find symbol
-    @Instance
-     ^
-  symbol:   class Instance
-  location: class ImmersiveMusic
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:24: error: cannot find symbol
-    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-                                      ^
-  symbol:   variable CLIENT
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:24: error: cannot find symbol
-    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-                                                                     ^
-  symbol:   variable COMMON
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:44: error: Illegal static declaration in inner class SoundsHandler.SoundsHandler
-	public static SoundEvent ENTITY_CENTAUR_AMBIENT, ENTITY_CENTAUR_HURT, ENTITY_CENTAUR_DEATH;
-	                         ^
-  modifier 'static' is only allowed in constant variable declarations
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:44: error: Illegal static declaration in inner class SoundsHandler.SoundsHandler
-	public static SoundEvent ENTITY_CENTAUR_AMBIENT, ENTITY_CENTAUR_HURT, ENTITY_CENTAUR_DEATH;
-	                                                 ^
-  modifier 'static' is only allowed in constant variable declarations
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:44: error: Illegal static declaration in inner class SoundsHandler.SoundsHandler
-	public static SoundEvent ENTITY_CENTAUR_AMBIENT, ENTITY_CENTAUR_HURT, ENTITY_CENTAUR_DEATH;
-	                                                                      ^
-  modifier 'static' is only allowed in constant variable declarations
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:52: error: Illegal static declaration in inner class SoundsHandler.SoundsHandler
-	public static void registerSounds()
-	                   ^
-  modifier 'static' is only allowed in constant variable declarations
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:88: error: cannot find symbol
-		ResourceLocation location = new ResourceLocation(Reference.MODID, name);
-		                                                 ^
-  symbol:   variable Reference
-  location: class com.hassam.mythocraft.mod.util.handlers.SoundsHandler.SoundsHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:80: error: Illegal static declaration in inner class SoundsHandler.SoundsHandler
-	private static SoundEvent registerSound(String name)
-	                          ^
-  modifier 'static' is only allowed in constant variable declarations
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:68: error: cannot find symbol
-		return LootTableHandler.CENTAUR;
-		       ^
-  symbol:   variable LootTableHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:74: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_AMBIENT;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:80: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_HURT;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\EntityCentaur.java:86: error: cannot find symbol
-		return SoundsHandler.ENTITY_CENTAUR_DEATH;
-		       ^
-  symbol:   variable SoundsHandler
-  location: class EntityCentaur
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\render\RenderCentaur.java:23: error: cannot find symbol
-	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MODID + ":textures/entity/centaur.png");
-	                                                                              ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\EntityInit.java:37: error: cannot find symbol
-		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
-		                                                               ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\EntityInit.java:37: error: cannot find symbol
-		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
-		                                                                                                       ^
-  symbol:   variable Main
-  location: class EntityInit
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\ItemInit.java:20: error: cannot find symbol
-	public static final List<Item> ITEMS = new ArrayList<Item>();
-	                                           ^
-  symbol:   class ArrayList
-  location: class ItemInit
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:28: error: cannot find symbol
-    public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
-                                                                                ^
-  symbol:   method preInitRegistries()
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:30: error: cannot find symbol
-    public static void init(FMLInitializationEvent event) {RegistryHandler.initRegistries();}
-                                                                          ^
-  symbol:   method initRegistries()
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:32: error: cannot find symbol
-    public static void postInit(FMLPostInitializationEvent event) {RegistryHandler.postInitRegistries();}
-                                                                                  ^
-  symbol:   method postInitRegistries()
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraft.java:10: error: cannot find symbol
-	public ItemStack getTabIconItem() {return new ItemStack(ItemInit.IMPERIAL_GOLD_INGOT);}
-	                                                        ^
-  symbol:   variable ItemInit
-  location: class MythoCraftTab
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:15: error: cannot find symbol
-		setCreativeTab(Main.MythoCraft);
-		               ^
-  symbol:   variable Main
-  location: class ItemBase
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:23: error: package Main does not exist
-		Main.proxy.registerItemRenderer(this, 0, "inventory");
-		    ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\proxy\ClientProxy.java:20: error: cannot find symbol
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(Reference.MODID, filename), id));
-		                                                                                                               ^
-  symbol:   variable MODID
-  location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:17: error: package ItemInit does not exist
-        event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
-                                                ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:23: error: cannot find symbol
-        event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
-                                                                     ^
-  symbol:   class Block
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:23: error: package BlockInit does not exist
-        event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
-                                                 ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:30: error: cannot find symbol
-        for(Item item : ItemInit.ITEMS)
-                        ^
-  symbol:   variable ItemInit
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:32: error: cannot find symbol
-            if(item instanceof IHasModel)
-                               ^
-  symbol:   class IHasModel
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:34: error: cannot find symbol
-                ((IHasModel)item).registerModels();
-                  ^
-  symbol:   class IHasModel
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:38: error: cannot find symbol
-        for(Block block : BlockInit.BLOCKS)
-                          ^
-  symbol:   variable BlockInit
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:38: error: cannot find symbol
-        for(Block block : BlockInit.BLOCKS)
-            ^
-  symbol:   class Block
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:40: error: cannot find symbol
-            if(block instanceof IHasModel)
-                                ^
-  symbol:   class IHasModel
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:42: error: cannot find symbol
-                ((IHasModel)block).registerModels();
-                  ^
-  symbol:   class IHasModel
-  location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RenderHandler.java:37: error: cannot find symbol
-				return new RenderCentaur(manager);
-				           ^
-  symbol: class RenderCentaur
-54 errors
+:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:29: error: illegal character: '`'
+	`}
+	^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:59: error: ')' expected
+				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName()substrin(5), "inventory"));
+				                                                                            ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:59: error: ';' expected
+				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName()substrin(5), "inventory"));
+				                                                                                    ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:59: error: not a statement
+				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName()substrin(5), "inventory"));
+				                                                                                     ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:59: error: ';' expected
+				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName()substrin(5), "inventory"));
+				                                                                                      ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java:4: error: illegal start of type
+	public static  {
+	               ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java:4: error: ';' expected
+	public static  {
+	                ^
+7 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -269,4 +51,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 12.491 secs
+Total time: 11.582 secs

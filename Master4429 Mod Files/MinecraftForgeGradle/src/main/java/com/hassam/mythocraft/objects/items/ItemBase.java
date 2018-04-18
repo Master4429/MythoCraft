@@ -3,7 +3,7 @@ package com.hassam.mythocraft.objects.items;
 import com.hassam.mythocraft.Main;
 import com.hassam.mythocraft.init.ItemInit;
 import com.hassam.mythocraft.util.interfaces.IHasModel;
-import net.minecraft.creativetav.CreativeTabs;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel
@@ -12,7 +12,7 @@ public class ItemBase extends Item implements IHasModel
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.MythoCraft);
+		setCreativeTab(MythocraftMaterialsTab.creativeTab);
 		
 		ItemInit.ITEMS.add(this);
 	}
