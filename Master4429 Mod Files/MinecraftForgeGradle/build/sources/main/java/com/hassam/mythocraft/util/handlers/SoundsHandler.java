@@ -38,7 +38,7 @@ public class SoundsHandler
 
 	{
 
-		ResourceLocation location = new ResourceLocation(Reference.MODID, name);
+		ResourceLocation location = new ResourceLocation(Reference.MOD_ID, name);
 
 		SoundEvent event = new SoundEvent(location);
 

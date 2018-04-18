@@ -14,6 +14,6 @@ public class LootTableHandler
 
 {
 
-	public static final ResourceLocation CENTAUR = LootTableList.register(new ResourceLocation(Reference.MODID, "centaur"));
+	public static final ResourceLocation CENTAUR = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "centaur"));
 
 }
