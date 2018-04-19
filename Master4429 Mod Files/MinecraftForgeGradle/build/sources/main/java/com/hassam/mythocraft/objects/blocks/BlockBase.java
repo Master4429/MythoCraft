@@ -1,6 +1,6 @@
 package com.hassam.mythocraft.objects.blocks;
 
-import com.hassam.mthocraft.Main;
+import com.hassam.mythocraft.Main;
 import com.hassam.mythocraft.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
