@@ -11,12 +11,12 @@ import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class BlockBase extends Block implements IModeledBlock {
+public class BlockBase extends Block {
 	public Item itemBlock = null;
 	public boolean isOpaqueCube = true, isFullCube = true;
 	public BlockRenderLayer layer = BlockRenderLayer.SOLID;
-	public BlockBase(Material material, String name, boolean addToTab) {
-		super(material);
+	public BlockBase(Material materialIn, String name, boolean addToTab) {
+		super(materialIn);
 	}
 
 	public BlockBase setIsOpaqueCube(boolean b) {
