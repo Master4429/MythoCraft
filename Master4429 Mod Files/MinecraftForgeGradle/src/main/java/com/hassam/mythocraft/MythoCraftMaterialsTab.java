@@ -7,5 +7,6 @@ import net.minecraft.item.ItemStack;
 public class MythoCraftMaterialsTab extends CreativeTabs
 {
 	public MythoCraftMaterialsTab(String label) {super("MythoCraft Materials");}
-	public ItemStack getTabIconItem() {return new ItemStack(ItemInit.IMPERIAL_GOLD_INGOT);}
+	public ItemStack getTabIconItem() 
+	{return ItemInit.IMPERIAL_GOLD_INGOT;}
 }

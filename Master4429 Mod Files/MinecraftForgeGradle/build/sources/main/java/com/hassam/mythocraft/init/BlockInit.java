@@ -1,67 +1,26 @@
 package com.hassam.mythocraft.init;
 
+import java.util.ArrayList;
+import java.util.List;
+import com.hassam.mythocraft.objects.blocks.BlockBase;
 import com.hassam.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BlockInit {
 
-	public static Block silver_ore;
-	public static Block celestial_bronze_ore;
-	public static Block stygian_iron_ore;
-	public static Block imperial_gold_ore;
-	public static Block adamant_ore;
-	public static Block meteoric_iron_ore;
-	public static Block ruby_ore;
+	public static final List<Block> BLOCKS = new ArrayList<Block>();
 
-	public static void init() {
-		silver_ore = new BlockSilverOre("silver_ore");
-		celestial_bronze_ore = new BlockCelestialBronzeOre("celestial_bronze_ore");
-		stygian_iron_ore = new BlockStygianIronOre("stygian_iron_ore");
-		imperial_gold_ore = new BlockImperialGoldOre("imperial_gold_ore");
-		adamant_ore = new BlockAdamantOre("adamant_ore");
-		meteoric_iron_ore = new BlockMeteoricIronOre("meteoric_iron_ore");
-		ruby_ore = new BlockRubyOre("ruby_ore");
-
-	`}
-
-	public static void register() {
-		registerBlock(silver_ore);
-		registerBlock(celestial_bronze_ore);
-		registerBlock(stygian_iron_ore);
-		registerBlock(imperial_gold_ore);
-		registerBlock(adamant_ore);
-		registerBlock(meteoric_iron_ore);
-		registerBlock(ruby_ore);
-	}
-
-	public static void registerRenders() {
-		registerRender(silver_ore);
-		registerRender(celestial_bronze_ore);
-		registerRender(stygian_iron_ore);
-		registerRender(imperial_gold_ore);
-		registerRender(adamant_ore);
-		registerRender(meteoric_iron_ore);
-		registerRender(ruby_ore);
-	}
-
-	public static void registerBlock(Block block) {
-		GameRegistry.registerBLock(block, block.getUnlocalizedName().substring(5));
-		System.out.println("Registered Block: " + block.getUnlocalizedName().substring(5));
-	}
-
-	public static void registerRender(Block block) {
-		Item item = Item.getItemFromBlock(block);
-		Minecraft.getMinecraft().getREnderItem().getItemModelMesher().register(item, 0,
-				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName()substrin(5), "inventory"));
-	}
-
-	public static void registerRender(Block block, int meta, String filename) {
-		Item item = Item.getItemFromBlock(block);
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().regist(item, meta,
-			new ModelResourceLocation(Reference.MOD_ID + ":" + fileName, "inventory"));
-	}
+	public static final Block SILVER_ORE = (new BlockSilverOre("silver_ore", Material.ROCK));
+	public static final Block CELESTIAL_BRONZE_ORE = (new BlockCelestialBronzeOre("celestial_bronze_ore", Material.ROCK));
+	public static final Block STYNGIAN_IRON_ORE = (new BlockStygianIronOre("stygian_iron_ore", Material.ROCK));
+	public static final Block IMPERIAL_GOLD_ORE = (new BlockImperialGoldOre("imperial_gold_ore", Material.ROCK));
+	public static final Block ADAMANT_ORE = (new BlockAdamantOre("adamant_ore"));
+	public static final Block METEORIC_IRON_ORE = (new BlockMeteoricIronOre("meteoric_iron_ore", Material.ROCK));
+	public static final Block RUBY_ORE = (new BlockRubyOre("ruby_ore", Material.ROCK));
 }

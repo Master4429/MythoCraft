@@ -19,6 +19,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 public class Main {
 
 	public static final MythoCraftMaterialsTab creativeTab = new MythoCraftMaterials();
+	public static final MythoCraftBlocks creativeTab = new MythoCraftBlocks();
+
 
     @Instance
     public static Main instance;

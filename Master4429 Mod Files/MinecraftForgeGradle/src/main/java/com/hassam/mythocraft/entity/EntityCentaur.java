@@ -1,7 +1,7 @@
 package com.hassam.mythocraft.entity;
 
 import com.hassam.mythocraft.init.ItemInit;
-import com.hassam.mythocraft.handlers.LootTableHandler;
+import com.hassam.mythocraft.util.handlers.LootTableHandler;
 import com.hassam.mythocraft.SoundsHandler;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
