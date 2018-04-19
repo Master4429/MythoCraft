@@ -36,7 +36,7 @@ public class BlockBase extends Block {
 	}
 
 	@Override
-	public boolean isFullCube(IBLockState state) {
+	public boolean isFullCube(IBlockState state) {
 		return isFullCube;
 	}
 
