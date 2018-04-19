@@ -1,6 +1,6 @@
 package com.hassam.mythocraft;
 
-import com.hassam.init.ItemInit;
+import com.hassam.mythocraft.init.ItemInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

@@ -24,15 +24,6 @@ import net.minecraftforge.fml.common.Instance;
                                     ^
   symbol:   class Instance
   location: package net.minecraftforge.fml.common
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftMaterialsTab.java:3: error: package com.hassam.init does not exist
-import com.hassam.init.ItemInit;
-                      ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocks.java:3: error: package com.hassam.init does not exist
-import com.hassam.init.ItemInit;
-                      ^
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocks.java:4: error: package com.hassam.init does not exist
-import com.hassam.init.BlockInit;
-                      ^
 C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:22: error: variable creativeTab is already defined in class Main
 	public static final MythoCraftBlocks creativeTab = new MythoCraftBlocks();
 	                                     ^
@@ -195,16 +186,12 @@ C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\Minecraf
                                                                                   ^
   symbol:   method postInitRegistries()
   location: class RegistryHandler
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftMaterialsTab.java:11: error: cannot find symbol
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftMaterialsTab.java:11: error: incompatible types: Item cannot be converted to ItemStack
 	{return ItemInit.IMPERIAL_GOLD_INGOT;}
-	        ^
-  symbol:   variable ItemInit
-  location: class MythoCraftMaterialsTab
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocks.java:12: error: cannot find symbol
+	                ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocks.java:12: error: incompatible types: Block cannot be converted to ItemStack
 	{return BlockInit.IMPERIAL_GOLD_ORE;}
-	        ^
-  symbol:   variable BlockInit
-  location: class MythoCraftBlocks
+	                 ^
 C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java:52: error: method does not override or implement a method from a supertype
 	@Override
 	^
@@ -255,7 +242,7 @@ C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\Minecraf
   location: class SoundsHandler
 Note: C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-52 errors
+49 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -269,4 +256,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.634 secs
+Total time: 13.411 secs
