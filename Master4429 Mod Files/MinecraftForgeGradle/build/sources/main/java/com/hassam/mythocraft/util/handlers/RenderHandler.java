@@ -4,7 +4,7 @@ package com.hassam.mythocraft.util.handlers;
 
 import com.hassam.mythocraft.entity.EntityCentaur;
 
-import com.hassam.mythocraft.render.RenderCentaur;
+import com.hassam.mythocraft.entity.render.RenderCentaur;
 
 import net.minecraft.client.renderer.entity.Render;
 
