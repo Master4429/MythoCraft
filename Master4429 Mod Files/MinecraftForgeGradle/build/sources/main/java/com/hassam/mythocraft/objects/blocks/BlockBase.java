@@ -1,7 +1,7 @@
-package com.hassam.objects.block;
+package com.hassam.mythocraft.objects.blocks;
 
-import com.hassam.Main;
-import com.hassam.Reference;
+import com.hassam.mthocraft.Main;
+import com.hassam.mythocraft.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
