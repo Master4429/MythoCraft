@@ -20,7 +20,7 @@ public class RenderCentaur extends RenderLiving<EntityCentaur>
 
 {
 
-	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MODID + ":textures/entity/centaur.png");
+	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MOD_ID + ":textures/entity/centaur.png");
 
 	
 
