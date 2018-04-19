@@ -28,58 +28,48 @@ Executing task ':deobfCompileDummyTask' (up-to-date check took 0.001 secs) due t
 :deobfProvidedDummyTask
 Executing task ':deobfProvidedDummyTask' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-:deobfProvidedDummyTask (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:deobfProvidedDummyTask (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
 :sourceApiJava (Thread[Daemon worker,5,main]) started.
 :sourceApiJava
-Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\taskArtifacts.bin
 Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshotsToTreeSnapshotsIndex.bin
-Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshots.bin
-Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshotUsage.bin
 Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshots.bin
 Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileHashes.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshotUsage.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshots.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\taskArtifacts.bin
 file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\api\java', not found
-Skipping task ':sourceApiJava' as it is up-to-date (took 0.036 secs).
+Skipping task ':sourceApiJava' as it is up-to-date (took 0.054 secs).
 :sourceApiJava UP-TO-DATE
-:sourceApiJava (Thread[Daemon worker,5,main]) completed. Took 0.04 secs.
+:sourceApiJava (Thread[Daemon worker,5,main]) completed. Took 0.056 secs.
 :compileApiJava (Thread[Daemon worker,5,main]) started.
 :compileApiJava
 Skipping task ':compileApiJava' as it has no source files.
 :compileApiJava UP-TO-DATE
-:compileApiJava (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:compileApiJava (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
 :processApiResources (Thread[Daemon worker,5,main]) started.
 :processApiResources
 file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\api\resources', not found
 Skipping task ':processApiResources' as it has no source files.
 :processApiResources UP-TO-DATE
-:processApiResources (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:processApiResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
 :apiClasses (Thread[Daemon worker,5,main]) started.
 :apiClasses
 Skipping task ':apiClasses' as it has no actions.
 :apiClasses UP-TO-DATE
-:apiClasses (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:apiClasses (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
 :sourceMainJava (Thread[Daemon worker,5,main]) started.
 :sourceMainJava
-Executing task ':sourceMainJava' (up-to-date check took 0.074 secs) due to:
-  Input file C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\main\java\com\hassam\mythocraft\util\handlers\GuiHandler.java has changed.
-:sourceMainJava (Thread[Daemon worker,5,main]) completed. Took 0.281 secs.
+Executing task ':sourceMainJava' (up-to-date check took 0.088 secs) due to:
+  Input file C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java has changed.
+:sourceMainJava (Thread[Daemon worker,5,main]) completed. Took 0.296 secs.
 :compileJava (Thread[Daemon worker,5,main]) started.
 :compileJava
 file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\libs', not found
-Executing task ':compileJava' (up-to-date check took 0.416 secs) due to:
+Executing task ':compileJava' (up-to-date check took 0.407 secs) due to:
   No history is available.
 All input files are considered out-of-date for incremental task ':compileJava'.
 file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\libs', not found
 Compiling with JDK Java compiler API.
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:3: error: cannot find symbol
-import com.hassam.mythocraft.init.ItemsInit;
-                                 ^
-  symbol:   class ItemsInit
-  location: package com.hassam.mythocraft.init
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.init.BlocksInit;
-                                 ^
-  symbol:   class BlocksInit
-  location: package com.hassam.mythocraft.init
 C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:22: error: cannot find symbol
     public static void onBlockRegister(RegistryEvent.Register<Block> event)
                                                               ^
@@ -101,9 +91,9 @@ C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\Minecraf
                                                                      ^
   symbol:   variable COMMON
   location: class Reference
-7 errors
+5 errors
 :compileJava FAILED
-:compileJava (Thread[Daemon worker,5,main]) completed. Took 1.471 secs.
+:compileJava (Thread[Daemon worker,5,main]) completed. Took 1.469 secs.
 
 FAILURE: Build failed with an exception.
 
@@ -116,4 +106,4 @@ Run with --stacktrace option to get the stack trace. Run with --debug option to 
 
 BUILD FAILED
 
-Total time: 9.613 secs
+Total time: 10.944 secs
