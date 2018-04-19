@@ -3,7 +3,7 @@ package com.hassam.mythocraft.init;
 import java.util.ArrayList;
 import java.util.List;
 import com.hassam.mythocraft.objects.blocks.BlockBase;
-import com.hassam.util.Reference;
+import com.hassam.mythocraft.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
