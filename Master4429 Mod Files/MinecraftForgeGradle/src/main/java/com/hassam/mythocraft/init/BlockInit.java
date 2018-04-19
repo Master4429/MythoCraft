@@ -16,7 +16,7 @@ public class BlockInit {
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 
-	public static final Block SILVER_ORE = (new BlockSilverOre("silver_ore", Material.ROCK));
+	public static final Block SILVER_ORE = (new SilverOreBlock("silver_ore", Material.ROCK));
 	public static final Block CELESTIAL_BRONZE_ORE = (new BlockCelestialBronzeOre("celestial_bronze_ore", Material.ROCK));
 	public static final Block STYNGIAN_IRON_ORE = (new BlockStygianIronOre("stygian_iron_ore", Material.ROCK));
 	public static final Block IMPERIAL_GOLD_ORE = (new BlockImperialGoldOre("imperial_gold_ore", Material.ROCK));

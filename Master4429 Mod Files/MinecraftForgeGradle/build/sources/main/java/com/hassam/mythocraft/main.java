@@ -1,5 +1,6 @@
 package com.hassam.mythocraft;
 
+import com.hassam.mythocraft.MythoCraftTab;
 import com.hassam.mythocraft.proxy.CommonProxy;
 import com.hassam.mythocraft.util.Reference;
 import com.hassam.mythocraft.util.handlers.RegistryHandler;
@@ -18,11 +19,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
 
-	public static MythoCraftMaterialsTab creativeTab = new MythoCraftMaterials();	
-
-    @Instance
-    public static Main instance;
-    
+    public static final MythoCraftTab creativeTab = new MythoCraftTab();
+	
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
     public static CommonProxy proxy;
         

@@ -49,8 +49,6 @@ public class BlockBase extends Block {
 		super.setHarvestLevel(toolType, level);
 		return this;
 	}
-
-	@Override
 	public void initModel() {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName().toString(), "inventory"));
 	}
