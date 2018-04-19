@@ -16,17 +16,134 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
 :sourceMainJava
-:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:26: error: cannot find symbol
-    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-                                      ^
-  symbol:   variable CLIENT
+:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\entity\render\RenderCentaur.java:23: error: cannot find symbol
+	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MODID + ":textures/entity/centaur.png");
+	                                                                              ^
+  symbol:   variable MODID
   location: class Reference
-C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:26: error: cannot find symbol
-    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-                                                                     ^
-  symbol:   variable COMMON
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:18: error: cannot find symbol
+	public static final Block SILVER_ORE = (new BlockSilverOre("silver_ore", Material.ROCK));
+	                                            ^
+  symbol:   class BlockSilverOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:18: error: cannot find symbol
+	public static final Block SILVER_ORE = (new BlockSilverOre("silver_ore", Material.ROCK));
+	                                                                         ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:19: error: cannot find symbol
+	public static final Block CELESTIAL_BRONZE_ORE = (new BlockCelestialBronzeOre("celestial_bronze_ore", Material.ROCK));
+	                                                      ^
+  symbol:   class BlockCelestialBronzeOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:19: error: cannot find symbol
+	public static final Block CELESTIAL_BRONZE_ORE = (new BlockCelestialBronzeOre("celestial_bronze_ore", Material.ROCK));
+	                                                                                                      ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:20: error: cannot find symbol
+	public static final Block STYNGIAN_IRON_ORE = (new BlockStygianIronOre("stygian_iron_ore", Material.ROCK));
+	                                                   ^
+  symbol:   class BlockStygianIronOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:20: error: cannot find symbol
+	public static final Block STYNGIAN_IRON_ORE = (new BlockStygianIronOre("stygian_iron_ore", Material.ROCK));
+	                                                                                           ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:21: error: cannot find symbol
+	public static final Block IMPERIAL_GOLD_ORE = (new BlockImperialGoldOre("imperial_gold_ore", Material.ROCK));
+	                                                   ^
+  symbol:   class BlockImperialGoldOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:21: error: cannot find symbol
+	public static final Block IMPERIAL_GOLD_ORE = (new BlockImperialGoldOre("imperial_gold_ore", Material.ROCK));
+	                                                                                             ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:22: error: cannot find symbol
+	public static final Block ADAMANT_ORE = (new BlockAdamantOre("adamant_ore"));
+	                                             ^
+  symbol:   class BlockAdamantOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:23: error: cannot find symbol
+	public static final Block METEORIC_IRON_ORE = (new BlockMeteoricIronOre("meteoric_iron_ore", Material.ROCK));
+	                                                   ^
+  symbol:   class BlockMeteoricIronOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:23: error: cannot find symbol
+	public static final Block METEORIC_IRON_ORE = (new BlockMeteoricIronOre("meteoric_iron_ore", Material.ROCK));
+	                                                                                             ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:24: error: cannot find symbol
+	public static final Block RUBY_ORE = (new BlockRubyOre("ruby_ore", Material.ROCK));
+	                                          ^
+  symbol:   class BlockRubyOre
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\BlockInit.java:24: error: cannot find symbol
+	public static final Block RUBY_ORE = (new BlockRubyOre("ruby_ore", Material.ROCK));
+	                                                                   ^
+  symbol:   variable Material
+  location: class BlockInit
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\init\EntityInit.java:37: error: cannot find symbol
+		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
+		                                                               ^
+  symbol:   variable MODID
   location: class Reference
-2 errors
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:21: error: cannot find symbol
+	public static MythoCraftMaterialsTab creativeTab = new MythoCraftMaterials();	
+	                                                       ^
+  symbol:   class MythoCraftMaterials
+  location: class Main
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:30: error: cannot find symbol
+    public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
+                                                                                ^
+  symbol:   method preInitRegistries()
+  location: class RegistryHandler
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:32: error: cannot find symbol
+    public static void init(FMLInitializationEvent event) {RegistryHandler.initRegistries();}
+                                                                          ^
+  symbol:   method initRegistries()
+  location: class RegistryHandler
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\Main.java:34: error: cannot find symbol
+    public static void postInit(FMLPostInitializationEvent event) {RegistryHandler.postInitRegistries();}
+                                                                                  ^
+  symbol:   method postInitRegistries()
+  location: class RegistryHandler
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftMaterialsTab.java:11: error: incompatible types: Item cannot be converted to ItemStack
+	{return ItemInit.IMPERIAL_GOLD_INGOT;}
+	                ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocks.java:12: error: incompatible types: Block cannot be converted to ItemStack
+	{return BlockInit.IMPERIAL_GOLD_ORE;}
+	                 ^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\MythoCraftBlocksTab.java:6: error: constructor MythoCraftBlocks in class MythoCraftBlocks cannot be applied to given types;
+public static MythoCraftBlocks CreativeTab = new MythoCraftBlocks();
+                                             ^
+  required: String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java:53: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\items\ItemBase.java:15: error: cannot find symbol
+		setCreativeTab(MythocraftMaterialsTab.creativeTab);
+		               ^
+  symbol:   variable MythocraftMaterialsTab
+  location: class ItemBase
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\proxy\ClientProxy.java:20: error: cannot find symbol
+		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(Reference.MODID, filename), id));
+		                                                                                                               ^
+  symbol:   variable MODID
+  location: class Reference
+C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\SoundsHandler.java:31: error: cannot find symbol
+		ResourceLocation location = new ResourceLoacation(Reference.MOD_ID, name);
+		                                ^
+  symbol:   class ResourceLoacation
+  location: class SoundsHandler
+Note: C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\objects\blocks\BlockBase.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+26 errors
  FAILED
 
 FAILURE: Build failed with an exception.
@@ -40,4 +157,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 10.572 secs
+Total time: 9.214 secs
