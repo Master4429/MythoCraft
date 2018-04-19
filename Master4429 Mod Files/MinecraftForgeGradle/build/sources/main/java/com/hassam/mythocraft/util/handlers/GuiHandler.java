@@ -1,7 +1,7 @@
 package com.hassam.mythocraft.util.handlers;
 
 
-import com.hassam.mythocraft.Reference;
+import com.hassam.mythocraft.util.Reference;
 
 import net.minecraft.entity.player.EntityPlayer;
 

@@ -9,18 +9,67 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
      by: Searge, ProfMobius, R4wk, ZeuX          
      Fesh0r, IngisKahn, bspkrs, LexManos         
 #################################################
+file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\api\resources', not found
+All projects evaluated.
+Selected primary task 'build' from project :
+Tasks to be executed: [task ':deobfCompileDummyTask', task ':deobfProvidedDummyTask', task ':sourceApiJava', task ':compileApiJava', task ':processApiResources', task ':apiClasses', task ':sourceMainJava', task ':compileJava', task ':processResources', task ':classes', task ':jar', task ':sourceTestJava', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':extractMcpData', task ':extractMcpMappings', task ':getVersionJson', task ':extractUserdev', task ':genSrgs', task ':reobfJar', task ':extractAnnotationsJar', task ':extractRangemapReplacedMain', task ':retromapReplacedMain', task ':sourceJar', task ':assemble', task ':check', task ':build']
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileHashes.bin: MaxSize{1358400}
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshots.bin: MaxSize{67900}
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshotUsage.bin: MaxSize{67900}
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshotsToTreeSnapshotsIndex.bin: MaxSize{33900}
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshots.bin: MaxSize{33900}
+Creating In-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\taskArtifacts.bin: MaxSize{6700}
+:deobfCompileDummyTask (Thread[Daemon worker,5,main]) started.
 :deobfCompileDummyTask
+Executing task ':deobfCompileDummyTask' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+:deobfCompileDummyTask (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+:deobfProvidedDummyTask (Thread[Daemon worker,5,main]) started.
 :deobfProvidedDummyTask
+Executing task ':deobfProvidedDummyTask' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:deobfProvidedDummyTask (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:sourceApiJava (Thread[Daemon worker,5,main]) started.
+:sourceApiJava
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\taskArtifacts.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshotsToTreeSnapshotsIndex.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileSnapshots.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshotUsage.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\treeSnapshots.bin
+Invalidating in-memory cache of C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\.gradle\2.14\taskArtifacts\fileHashes.bin
+file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\api\java', not found
+Skipping task ':sourceApiJava' as it is up-to-date (took 0.036 secs).
 :sourceApiJava UP-TO-DATE
+:sourceApiJava (Thread[Daemon worker,5,main]) completed. Took 0.04 secs.
+:compileApiJava (Thread[Daemon worker,5,main]) started.
+:compileApiJava
+Skipping task ':compileApiJava' as it has no source files.
 :compileApiJava UP-TO-DATE
+:compileApiJava (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:processApiResources (Thread[Daemon worker,5,main]) started.
+:processApiResources
+file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\api\resources', not found
+Skipping task ':processApiResources' as it has no source files.
 :processApiResources UP-TO-DATE
+:processApiResources (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:apiClasses (Thread[Daemon worker,5,main]) started.
+:apiClasses
+Skipping task ':apiClasses' as it has no actions.
 :apiClasses UP-TO-DATE
+:apiClasses (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:sourceMainJava (Thread[Daemon worker,5,main]) started.
 :sourceMainJava
-:compileJavaC:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\GuiHandler.java:4: error: cannot find symbol
-import com.hassam.mythocraft.Reference;
-                            ^
-  symbol:   class Reference
-  location: package com.hassam.mythocraft
+Executing task ':sourceMainJava' (up-to-date check took 0.074 secs) due to:
+  Input file C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\src\main\java\com\hassam\mythocraft\util\handlers\GuiHandler.java has changed.
+:sourceMainJava (Thread[Daemon worker,5,main]) completed. Took 0.281 secs.
+:compileJava (Thread[Daemon worker,5,main]) started.
+:compileJava
+file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\libs', not found
+Executing task ':compileJava' (up-to-date check took 0.416 secs) due to:
+  No history is available.
+All input files are considered out-of-date for incremental task ':compileJava'.
+file or directory 'C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\libs', not found
+Compiling with JDK Java compiler API.
 C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\MinecraftForgeGradle\build\sources\main\java\com\hassam\mythocraft\util\handlers\RegistryHandler.java:3: error: cannot find symbol
 import com.hassam.mythocraft.init.ItemsInit;
                                  ^
@@ -52,8 +101,9 @@ C:\Users\Administrator\Documents\GitHub\MythoCraft\Master4429 Mod Files\Minecraf
                                                                      ^
   symbol:   variable COMMON
   location: class Reference
-8 errors
- FAILED
+7 errors
+:compileJava FAILED
+:compileJava (Thread[Daemon worker,5,main]) completed. Took 1.471 secs.
 
 FAILURE: Build failed with an exception.
 
@@ -62,8 +112,8 @@ Execution failed for task ':compileJava'.
 > Compilation failed; see the compiler error output for details.
 
 * Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+Run with --stacktrace option to get the stack trace. Run with --debug option to get more log output.
 
 BUILD FAILED
 
-Total time: 9.877 secs
+Total time: 9.613 secs
