@@ -1,9 +1,10 @@
 package com.hassam.mythocraft.util.handlers;
 
-import com.hassam.mythocraft.init.ItemInit;
-import com.hassam.mythocraft.init.BlockInit;
+import com.hassam.mythocraft.init.ItemsInit;
+import com.hassam.mythocraft.init.BlocksInit;
 import com.hassam.mythocraft.util.interfaces.IHasModel;
 import net.minecraft.item.Item;
+import net.minecraft.block.Block;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
